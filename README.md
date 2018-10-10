@@ -47,6 +47,6 @@ my_five.is_rational()  # True
 
 5. Or even represent `5` by any sort of operation:
 ```Python
-my_file.as_sum()  # 3+2
-my_file.as_fraction()  # 10/2
+my_five.as_sum()  # 3+2
+my_five.as_fraction()  # 10/2
 ```
