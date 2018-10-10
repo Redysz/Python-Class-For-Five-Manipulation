@@ -59,3 +59,9 @@ ____
    |
 ---/
 ```
+
+7. It also can repeat everyting `5` times!
+```Python
+self.five.say_five_times('😹')  # it will print: 😹😹😹😹😹
+self.five.say_five_times('vodka')  # it will print: vodkavodkavodkavodkavodka
+```
