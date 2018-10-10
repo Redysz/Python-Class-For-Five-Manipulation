@@ -16,3 +16,5 @@ print(bin(int(my_five)))
 my_five.print_five_in_digit_type('European')
 my_five.print_five_in_digit_type('Arabic')
 my_five.print_five_in_digit_type('Arabic-west')
+print(my_five.as_sum())  # 3+2
+print(my_five.as_fraction())  # 10/2

@@ -1,5 +1,5 @@
 import math
-
+import random
 
 class Five:
     @property
@@ -73,6 +73,21 @@ ____
 
     def get_five_in_digit_type(self, digit_type):
         return self.five_digit.get(digit_type, '5')
+
+    def as_sum(self):
+        a = random.randint(1, 1000)
+        b = self.five - a
+        return str(a) + ' + ' + str(b)
+
+    def as_fraction(self):
+        a = random.randint(1, 1000)
+        b = a*self.five
+        return str(b) + ' / ' + str(a)
+
+    def as_product(self):
+        a = random.randint(1, 1000)
+        b = self.five/a
+        return str(a) + ' * ' + str(b)
 
     @staticmethod
     def print_actual_five_properties():
