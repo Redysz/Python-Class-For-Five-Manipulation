@@ -163,6 +163,10 @@ Five is positive number''')
     def is_zero():
         return False
 
+    @staticmethod
+    def is_divisor(num):
+        return num % 5 == 0
+
     def say_five_in_language(self, language: str):
         return self.five_lang.get(language, 'five')
 

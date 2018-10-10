@@ -40,3 +40,8 @@ class TestStringMethods(unittest.TestCase):
         self.assertEqual(self.five.get_five_in_digit_type('European'), '5')
         self.assertEqual(self.five.get_five_in_digit_type('Arabic'), '٥')
         self.assertEqual(self.five.get_five_in_digit_type('Arabic-west'), '۵')
+        self.assertEqual(True, self.five.is_divisor(25))
+        self.assertEqual(True, self.five.is_divisor(0))
+        self.assertEqual(True, self.five.is_divisor(5))
+        self.assertEqual(True, self.five.is_divisor(-50))
+        self.assertEqual(False, self.five.is_divisor(22))
