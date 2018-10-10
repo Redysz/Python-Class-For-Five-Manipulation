@@ -50,3 +50,12 @@ my_five.is_rational()  # True
 my_five.as_sum()  # 3+2
 my_five.as_fraction()  # 10/2
 ```
+
+6. Function `draw_five` can draw five:
+```Python
+____
+|
+|--\
+   |
+---/
+```
